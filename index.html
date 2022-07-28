@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <title>Dice Game</title>
+</head>
+<body>
+  <div id="outerDiv">
+
+    <div class="gameWindow">
+
+      <div id="globalControls">
+        <button type="button" id="newGameBtn">New</button>
+        <img src="" id="diceImage"/>
+        <div id="playBtns">
+          <button type="button" id="rollBtn">Roll</button>
+          <button type="button" id="holdBtn">Hold</button>
+        </div>           
+      </div>
+
+      <div id="playerOneWindow" class="playerWindow">
+        <label class="mainLabel" id="playerTwoMainLabel">Player 1</label>
+        <label id="scoreLabel">0</label>
+        <label id="currentLabel">Current: </label>
+      </div>
+
+      <div id="playerTwoWindow" class="playerWindow">
+        <label class="mainLabel" id="playerOneMainLabel">Player 2</label>
+        <label id="scoreLabel">0</label>
+        <label id="currentLabel">Current: </label>
+      </div>
+      
+      
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
