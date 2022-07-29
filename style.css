@@ -45,8 +45,6 @@
   bottom: 0;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: rgba(45, 172, 174, 0.93);
-  box-shadow:-5px -5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #playerTwoWindow {
@@ -79,6 +77,11 @@
 
 label {
   font-size: 40px;
+}
+
+#diceRollText {
+  font-size: 25px;
+  visibility: hidden;
 }
 
 button {
